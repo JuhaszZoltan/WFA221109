@@ -83,6 +83,7 @@
             this.tsmiBejelentes.Size = new System.Drawing.Size(91, 74);
             this.tsmiBejelentes.Text = "Bejelentés";
             this.tsmiBejelentes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsmiBejelentes.Click += new System.EventHandler(this.TsmiBejelentes_Click);
             // 
             // dgvMain
             // 

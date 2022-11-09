@@ -32,7 +32,13 @@ namespace WFA221109
                     $"{reader[4]} Kg",
                     reader.GetBoolean(5) ? "csõdör" : "kanca");
             }
+        }
 
+        private void TsmiBejelentes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            _ = new FrmAdatlap().ShowDialog();
+            this.Show();
         }
     }
 }
